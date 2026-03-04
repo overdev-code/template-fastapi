@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.routes.api_routes import api_router
 from app.routes.pages_routes import pages_router
 from app.routes.for_react_routes import for_react_router
-from app.routes.media_routes import files_router
+from app.routes.file_routes import files_router
 from app.models.database import create_db_and_tables
 
 # --- Paths ---
