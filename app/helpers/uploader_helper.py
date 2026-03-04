@@ -14,7 +14,7 @@ class FileUploader:
     """
 
     # Configuraciones por defecto
-    DEFAULT_BASE_PATH = "react-dist/static/files"
+    DEFAULT_BASE_PATH = "data/public"
     ALLOWED_EXTENSIONS = {
         "images": {"jpg", "jpeg", "png", "gif", "webp"},
         "docs": {"pdf", "doc", "docx", "txt", "md"},
